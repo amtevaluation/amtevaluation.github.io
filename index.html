@@ -40,15 +40,25 @@
         <div style="height:20px;"></div>
 
         <div style="margin:auto;padding:10px;text-align:center;border: 1px solid rgb(0,140,235); width:500px;background-color:rgba(0,140,235,0.1);">
-          <a href="./Data.zip"><strong><font color="#ff0080">Download the evaluation script</font></strong></a><br>
-          (The link is enabled after the acceptance of the submitted paper)
+          <a href="https://amtevaluation.github.io/MUSTER_v210726.zip"><strong><font color="#ff0080">Download the evaluation script</font></strong></a><br>
         </div>
 
         <div style="height:20px;"></div>
 
         <h3>About the MUSTER metrics</h3>
 
-       The <strong>MUsic Score Transcription Error Rate (MUSTER)</strong> metrics are edit-distance-based metrics. The set of error rates evaluate the rates of pitch errors, insertion errors, deletion errors, onset time errors, offset time errors, and voice errors.
+        The <strong>MUsic Score Transcription Error Rate (MUSTER)</strong> metrics are edit-distance-based metrics. Each of the six metrics evaluates a specific aspect of musical score. These metrics are error rates; a lower value means a larger similarity between the esimated score and the ground truth.
+
+        <div style="height:20px;"></div>
+
+        <h3>References</h3>
+
+        The edit-distance-based metrics are first introduced in Ref. [1]. The metrics for voices are defined in Ref. [2].<br>
+        <br>
+
+        [1] Eita Nakamura, Emmanouil Benetos, Kazuyoshi Yoshii, Simon Dixon, “Towards Complete Polyphonic Music Transcription: Integrating Multi-Pitch Detection and Rhythm Quantization,” Proc. 43rd IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 101-105, 2018.<br>
+
+        [2] Yuki Hiramatsu, Eita Nakamura, Kazuyoshi Yoshii, “Joint Estimation of Note Values and Voices for Audio-to-Score Piano Transcription,” Proc. 22nd International Society for Music Information Retrieval Conference (ISMIR), 2021.
 
       </section>
     </div>
@@ -56,9 +66,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">
-          (Last updated: 2021)
-        </p>
+        <p class="copyright">Maintained by <a href="https://eita-nakamura.github.io/index.html"><font color="#000000">Eita Nakamura</font></a>　　　(Last updated: July 2021)</p>
       </footer>
     </div>
 
